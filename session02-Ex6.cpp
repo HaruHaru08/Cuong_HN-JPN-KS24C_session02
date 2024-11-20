@@ -5,7 +5,7 @@ int main(){
 	float radius = 5;
 	float perimeter = 2 * pi * radius;
 	float acreage = pi * radius * radius;
-	printf("Chu vi hinh tron la: %f \n",perimeter);
-	printf("Dien tich hinh tron la: %f \n ",acreage);
+	printf("Chu vi hinh tron la: %.2f \n",perimeter);
+	printf("Dien tich hinh tron la: %.2f \n ",acreage);
 	return 0;
 }
